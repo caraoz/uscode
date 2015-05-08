@@ -1,3 +1,7 @@
+This fork should be ported to Python 3
+
+
+#Original Author's Readme
 This repository contains the complete United States Code.  Its purpose
 is to publish the federal code in a way that makes it easy for
 interested individuals to access both its content and its changes over
