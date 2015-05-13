@@ -1,7 +1,22 @@
 This fork should be ported to Python 3
+For the most part, working.db is an sqlite3 template where every code section will ultimately be added. retrieve_code.py simply downloads every code sections from code.house.gov and extracts the zips to html/. BeautifulSoup4 and lxml are used to interact with the html code sections and it inserted into an sqlite3 db (pending)
 
 
-#Original Author's Readme
+
+#To Do
+work on parse.py for robust sqlite support
+work on change tracking
+
+
+
+#Requirements
+requests
+beautifulsoup4
+
+
+
+
+##Original Author's Readme
 This repository contains the complete United States Code.  Its purpose
 is to publish the federal code in a way that makes it easy for
 interested individuals to access both its content and its changes over
